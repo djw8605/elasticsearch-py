@@ -8,7 +8,8 @@ Summary:        Python client for Elasticsearch
 
 License:        Apache License, Version 2.0
 URL:            https://github.com/elastic/elasticsearch-py
-Source0:        https://files.pythonhosted.org/packages/source/e/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+#Source0:        https://files.pythonhosted.org/packages/source/e/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:        %{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
  
 BuildRequires:  python2-devel

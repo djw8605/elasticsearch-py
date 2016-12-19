@@ -18,7 +18,6 @@ BuildRequires:  python-nose
 BuildRequires:  python-coverage
 BuildRequires:  python-mock
 BuildRequires:  python-pyaml
-BuildRequires:  python-nosexcover
 BuildRequires:  python-setuptools
 #BuildRequires:  python-sphinx
 

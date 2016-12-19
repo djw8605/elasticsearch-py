@@ -51,7 +51,7 @@ a more pythonic library sitting on top of elasticsearchpy.It provides a more
 #Documentation for elasticsearch
 
 %prep
-%autosetup -n %{pypi_name}
+%autosetup -n %{pypi_name}-py
 # Remove bundled egg-info
 rm -rf %{pypi_name}.egg-info
 
